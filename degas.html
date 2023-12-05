@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Edar Degas</title>
+    <style>
+        body {
+            font-family:'Poppins', sans-serif;
+            background-color: #F0F0E5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+           
+        }
+        .container img {
+            width: 300px;
+            margin-right: 20px;
+            float: left;
+        }
+
+        h1 {
+            font-family:'Lato', sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-family:'Lato', sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+      
+        .intro-container {
+            overflow: hidden;
+        }
+
+        .intro-container img {
+            float: left;
+            width: 300px;
+            margin-right: 20px;
+            border-radius: 15px;
+        }
+
+         p {
+            text-align: justify;
+            flex: 1; /* Take up remaining space */
+            padding: 15px; 
+            background-color: #EDB2AD; /* Background color */
+            border: 2px solid #EDB2AD; /* Border color */
+            border-radius: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px; /* Add space at the top */
+            padding-bottom: 10px; /* Add space at the bottom */
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+       
+        .row {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .column img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Edar Degas</h1>
+        <div class="intro-container">
+        <img src=".\static\degas.jpg" alt="Vincent van Gogh" width="300px">
+    
+        <p>Edgar Degas, a prominent figure in Impressionism, was born in Paris in 1834. Known for his mastery of capturing movement, Degas frequently depicted scenes of ballet dancers, horse races, and everyday life in Paris. His fascination with movement led him to experiment with unconventional compositions and perspectives, often portraying subjects in candid, off-center moments. Degas was a versatile artist, proficient in painting, sculpture, and pastel drawing, showcasing a keen eye for detail and a deep understanding of human form. Despite being associated with Impressionism, he maintained a more formal approach to his work, incorporating elements of classical techniques and precise draftsmanship. His exploration of light, composition, and human gesture remains a testament to his unparalleled skill and influence on the art world, solidifying his place as a master of capturing fleeting moments in time.</p>
+    </div>
+        <h2>Famous Works</h2>
+        <!-- Add images of famous works -->
+        <div class="row">
+            <div class="column">
+                <img src=".\static\edp1.jpg" alt="Work 1">
+            </div>
+            <div class="column">
+                <img src=".\static\edp2.jpg" alt="Work 2">
+            </div>
+            <div class="column">
+                <img src=".\static\edp3.jpg" alt="Work 2">
+            </div>
+            <div class="column">
+                <img src=".\static\edp4.jpg" alt="Work 1">
+            </div>
+            <div class="column">
+                <img src=".\static\edp5.jpg" alt="Work 2">
+            </div>
+           
+            
+            <div class="column">
+                <img src=".\static\edp6.jpg" alt="Work 2">
+            </div>
+            
+            <!-- Add more famous works -->
+        </div>
+    </div>
+</body>
+
+</html>

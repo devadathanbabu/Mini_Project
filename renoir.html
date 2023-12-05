@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pierre-Auguste Renoir</title>
+    <style>
+        body {
+            font-family:'Poppins', sans-serif;
+            background-color: #F0F0E5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+           
+        }
+        .container img {
+            width: 300px;
+            margin-right: 20px;
+            float: left;
+        }
+
+        h1 {
+            font-family:'Lato', sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-family:'Lato', sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+      
+        .intro-container {
+            overflow: hidden;
+        }
+
+        .intro-container img {
+            float: left;
+            width: 300px;
+            margin-right: 20px;
+            border-radius: 15px;
+        }
+
+         p {
+            text-align: justify;
+            flex: 1; /* Take up remaining space */
+            padding: 15px; 
+            background-color: #B7B2E6; /* Background color */
+            border: 2px solid #B7B2E6; /* Border color */
+            border-radius: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px; /* Add space at the top */
+            padding-bottom: 10px; /* Add space at the bottom */
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+       
+        .row {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .column img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pierre-Auguste Renoir</h1>
+        <div class="intro-container">
+        <img src="static\Pierre-Auguste-Renoir.jpg" alt="Pierre-Auguste Renoir" width="300px">
+    
+        <p>Pierre-Auguste Renoir, a luminary of the Impressionist movement, crafted vivid, light-infused paintings that captured the essence of Parisian life. His art, characterized by soft brushwork and a vivid color palette, often depicted scenes of leisure, bustling streets, and delightful portraits. Renoir's fascination with portraying the beauty of everyday life led to his iconic works, where he masterfully captured the interplay of light and movement. His later years, despite battling severe arthritis, showcased an unwavering dedication to his craft, adapting his technique to continue creating vibrant, joyous canvases. Renoir's legacy endures through his timeless contributions, inspiring generations of artists with his celebration of life's simple pleasures in his art.</p>
+    </div>
+        <h2>Famous Works</h2>
+        <!-- Add images of famous works -->
+        <div class="row">
+            <div class="column">
+                <img src=".\static\pap1.jpg" alt="Work 1">
+            </div>
+            <div class="column">
+                <img src=".\static\pap2.jpg" alt="Work 2">
+            </div>
+            <div class="column">
+                <img src=".\static\pap6.jpg" alt="Work 1">
+            </div>
+            <div class="column">
+                <img src=".\static\pap3.jpg" alt="Work 2">
+            </div>
+            <div class="column">
+                <img src=".\static\pap5.jpg" alt="Work 2">
+            </div>
+            <div class="column">
+                <img src=".\static\pap4.jpg" alt="Work 2">
+            </div>
+            
+            <!-- Add more famous works -->
+        </div>
+    </div>
+</body>
+
+</html>
